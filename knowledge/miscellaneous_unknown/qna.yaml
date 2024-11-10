@@ -1,0 +1,37 @@
+version: 3
+domain: partner_engineering
+created_by: <user-name>
+seed_examples:
+  - context: |
+      This is the handbook for the Ansible Partner Engineering Team.
+      It lives in GitHub because this is where we work, and because the
+      review process is how we work.
+      The handbook is inspired by the [Gitlab handbook]
+      (https://about.gitlab.com/handbook/).
+      It contains information about how we work as a team,
+      and is guided by a few high level principles.
+      * Provide the best partner experience
+      * Enable partners to succeed
+      * Documentation comes first
+    questions_and_answers:
+      - question: |
+          What is the partner engineering handbook?
+        answer: |
+          This is the handbook for the Ansible Partner Engineering Team.
+      - question: |
+          Why is the handbook in github?
+        answer: |
+          It lives in GitHub because this is where we work,
+          and because the review process is how we work.
+      - question: |
+          What sort of information does the handbook have?
+        answer: |
+          It contains information about how we work as a team,
+          and is guided by a few high level principles.
+document_outline: |
+  Information about the Partner Engineering handbook.
+document:
+  repo: https://github.com/ansible/partner-engineering-handbook /
+  commit: <commit hash>
+  patterns:
+  - readme.md
